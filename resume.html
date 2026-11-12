@@ -44,7 +44,7 @@
       var li = function (b) { return "<li>" + (b.lead ? "<b>" + b.lead + ":</b> " : "") + b.text + "</li>"; };
       document.getElementById("page").innerHTML =
         "<h1>" + R.name + '</h1><p class="title">' + R.title + "</p>" +
-        '<p class="meta">' + R.location + ' | <a href="mailto:' + R.email + '">' + R.email + "</a> | " + R.phone + ' | <a href="' + R.linkedin + '">' + R.linkedinLabel + "</a></p>" +
+        '<p class="meta">' + R.location + ' | <a href="mailto:' + R.email + '">' + R.email + "</a> | " + '<a href="' + R.linkedin + '">' + R.linkedinLabel + "</a></p>" +
         "<h2>Summary</h2><p>" + R.summary + "</p>" +
         '<h2>Skills</h2><ul class="skills">' + R.skills.map(function (s) { return "<li><b>" + s.group + ":</b> " + s.items.join(", ") + "</li>"; }).join("") + "</ul>" +
         "<h2>Experience</h2>" + R.experience.map(function (c) {

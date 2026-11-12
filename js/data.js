@@ -15,7 +15,6 @@ window.RESUME = {
   employer: "Google Cloud",
   location: "Melbourne, Australia",
   email: "dgulli@gmail.com",
-  phone: "+61 406 207 457",
   linkedin: "https://www.linkedin.com/in/davegulli/",
   linkedinLabel: "linkedin.com/in/davegulli",
   resumePdf: "assets/Dave-Gulli-Resume.pdf",
@@ -138,7 +137,7 @@ window.RESUME = {
     {
       name: "Sovereign cloud landing zone",
       client: "Telstra",
-      summary: "A $2.5M sovereign landing zone built to meet national sovereignty requirements.",
+      summary: "A sovereign landing zone built to meet national sovereignty requirements.",
       points: [
         "Programmatic regulatory perimeters and zero-trust controls.",
         "Delivered entirely as infrastructure as code.",
@@ -182,8 +181,8 @@ window.RESUME = {
             { lead: "AI guardrails", text: "built fail-closed guardrails that screen every prompt and response in-region for prompt injection, jailbreaks and tax file numbers. Blocked every adversarial payload across 60 benchmark scenarios." },
             { lead: "MCP and tool integration", text: "built MCP connectors for Microsoft SharePoint and Chinese-language news search, reducing the time to add a new tool or data source from weeks to under 48 hours." },
             { lead: "Teaching and stakeholder alignment", text: "ran an eight-sprint architecture workshop series for Bendigo Bank's architects, security teams and platform developers. The designs passed the bank's CISO and model risk reviews on first submission." },
-            { lead: "Pre-sales leadership", text: "as AUNZ Pre-sales Site Lead, introduced a deal qualification framework to diagnose and unblock priority deals. Contributed technical architecture to wins including Canva ($60M), Macquarie Bank ($45M) and Zip Co ($22M)." },
-            { lead: "Telstra sovereign cloud", text: "architected a $2.5M sovereign landing zone with programmatic regulatory perimeters, infrastructure as code and zero-trust controls to meet national data, cryptographic and operational sovereignty requirements." },
+            { lead: "Pre-sales leadership", text: "as AUNZ Pre-sales Site Lead, introduced a deal qualification framework to diagnose and unblock priority deals. Contributed technical architecture to wins including Canva, Macquarie Bank and Zip Co." },
+            { lead: "Telstra sovereign cloud", text: "architected a sovereign landing zone with programmatic regulatory perimeters, infrastructure as code and zero-trust controls to meet national data, cryptographic and operational sovereignty requirements." },
             { lead: "ANZ Bank and Atlassian", text: "led the architecture for ANZ's payments platform (99.999% SLA, 60% of Australia's transaction volume) and for scaling Atlassian's Google Cloud footprint to more than 27,000 CPUs serving 27 million users." },
             { lead: "Department of Defence", text: "authored the cloud foundations proposal mapping the architecture to the ISM for Official: Sensitive and Protected workloads." },
             { lead: "Community", text: "Google GenAI Ambassador and AI Accelerator Mentor. Designed hands-on lab content for the Sydney Cloud Summit 2026 Builder Zone." },

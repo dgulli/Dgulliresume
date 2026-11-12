@@ -14,7 +14,6 @@
     arrow: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
     download: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg>',
     mail: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></svg>',
-    phone: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>',
     pin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
     linkedin: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5v6M8 7.5v.01M12 16.5v-6M12 13a2.5 2.5 0 0 1 4.5-1.200V16.5"/></svg>',
     check: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.800 2.800L16 9.5"/></svg>',
@@ -133,7 +132,6 @@
   $("#contact").innerHTML = '<div class="wrap">' + head("Contact", "Let's talk.", "Have an opportunity, project or collaboration in mind? Feel free to reach out.") +
     '<div class="contact"><div class="contact__list" data-reveal>' +
       '<div class="contact__item"><span class="contact__icon">' + ICON.mail + '</span><div class="contact__meta"><small>Email</small><a href="mailto:' + R.email + '" style="text-decoration:none"><span>' + R.email + '</span></a></div><button class="copy" type="button" id="copyEmail">Copy</button></div>' +
-      '<a class="contact__item" href="tel:' + R.phone.replace(/\s/g, "") + '"><span class="contact__icon">' + ICON.phone + '</span><div class="contact__meta"><small>Phone</small><span>' + R.phone + "</span></div></a>" +
       '<a class="contact__item" href="' + R.linkedin + '" target="_blank" rel="noopener"><span class="contact__icon">' + ICON.linkedin + '</span><div class="contact__meta"><small>LinkedIn</small><span>' + R.linkedinLabel + "</span></div></a>" +
       '<div class="contact__item"><span class="contact__icon">' + ICON.pin + '</span><div class="contact__meta"><small>Location</small><span>' + R.location + "</span></div></div>" +
     "</div>" +
