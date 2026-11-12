@@ -10,6 +10,7 @@
 window.RESUME = {
   name: "Dave Gulli",
   initials: "DG",
+  photo: "assets/dave-gulli.jpg", // delete this line to fall back to the initials avatar
   title: "Forward Deployed Engineer and AI Architect (L7), Google Cloud",
   shortTitle: "Forward Deployed Engineer & AI Architect",
   employer: "Google Cloud",

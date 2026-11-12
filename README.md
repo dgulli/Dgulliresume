@@ -20,7 +20,7 @@ To refresh the PDF after changing `js/data.js`:
 npm i playwright && node scripts/build-pdf.js
 ```
 
-To add a photo, replace the initials avatar markup in the hero section of `js/main.js` with an `<img>`.
+To change the photo, replace `assets/dave-gulli.jpg` (square crop works best). Removing the `photo` line in `js/data.js` falls back to an initials avatar.
 
 ## Publishing on GitHub Pages
 

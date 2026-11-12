@@ -53,7 +53,7 @@
     "</div>" +
     '<div class="profile" data-reveal style="--i:4">' +
       '<div class="profile__card">' +
-        '<div class="avatar" role="img" aria-label="' + R.name + ' initials"><span class="avatar__ring"></span><span class="avatar__initials">' + R.initials + "</span></div>" +
+        '<div class="avatar" role="img" aria-label="' + (R.photo ? "Portrait of " + R.name : R.name + " initials") + '"><span class="avatar__ring"></span>' + (R.photo ? '<img class="avatar__photo" src="' + R.photo + '" alt="" width="640" height="640">' : '<span class="avatar__initials">' + R.initials + "</span>") + "</div>" +
         '<p class="profile__name">' + R.name + "</p>" +
         '<p class="profile__role">' + R.shortTitle + "<br>" + R.employer + "</p>" +
       "</div>" +
