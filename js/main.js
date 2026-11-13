@@ -66,7 +66,7 @@
   $("#marquee").innerHTML = '<div class="marquee__track">' + names + names.replace(/<span>/g, '<span aria-hidden="true">') + "</div>";
 
   /* ---------------- AboutSection ---------------- */
-  $("#about").innerHTML = '<div class="wrap">' + head("About", "Adviser first, then builder.") +
+  $("#about").innerHTML = '<div class="wrap">' + head("About", "A builder, embedded with the customer.") +
     '<div class="about"><div class="about__text" data-reveal>' + R.about.map(function (p) { return "<p>" + p + "</p>"; }).join("") + "</div>" +
     '<div class="about__cards">' + R.highlights.map(function (h, i) {
       return '<div class="card card--lift stat" data-reveal style="--i:' + (i + 1) + '"><div class="stat__num">' + count(h) + h.suffix + '</div><div class="stat__label">' + h.label + "</div></div>";

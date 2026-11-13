@@ -26,7 +26,7 @@ window.RESUME = {
     headline: ["I take generative AI", "from idea to production", "in regulated industries."],
     accentLine: 1, // which headline line gets the accent colour (0-based)
     intro:
-      "I'm a Forward Deployed Engineer and AI Architect at Google Cloud. I advise banks, telcos and government agencies across Australia and Asia-Pacific, then design and build the agentic systems, evaluation frameworks and guardrails that get them live.",
+      "I'm a Forward Deployed Engineer and AI Architect at Google Cloud. I design and build agentic systems, evaluation frameworks and guardrails for banks, telcos and government agencies across Australia and Asia-Pacific, working hands-on with their teams until they're live.",
     facts: ["20+ years customer-facing", "6 years at Google Cloud", "NV1 security cleared"],
   },
 
@@ -43,9 +43,9 @@ window.RESUME = {
 
   /* ---------- About section (website wording) ---------- */
   about: [
-    "I've spent more than 20 years in customer-facing technical roles, the last six at Google Cloud. These days my work is helping banks, telcos and government agencies adopt generative AI, and then staying on to design and build what gets them into production.",
-    "That usually means agentic systems, the evaluation frameworks that prove they work, and the guardrails that keep them safe, all built to meet APRA, MAS and ISM requirements.",
-    "I'm a former CTO and AUNZ pre-sales site lead, so I'm as comfortable in an executive workshop as I am in a code review. I still write production Python.",
+    "I build generative AI systems for banks, telcos and government agencies, working inside their teams until the thing is in production. I've spent more than 20 years in customer-facing technical roles, the last six at Google Cloud.",
+    "That means writing the code myself: agentic systems, the evaluation frameworks that prove they work, and the guardrails that keep them safe, all built to meet APRA, MAS and ISM requirements.",
+    "I'm also a former CTO and AUNZ pre-sales site lead, which helps when a design has to get past executives, security and model risk before it can ship.",
   ],
   highlights: [
     { value: 20, suffix: "+", label: "years in customer-facing technical roles" },
