@@ -49,7 +49,7 @@ window.RESUME = {
   ],
   highlights: [
     { value: 20, suffix: "+", label: "years in customer-facing technical roles" },
-    { value: 7, suffix: "", label: "Google Cloud Professional certifications" },
+    { value: 200, suffix: "", label: "people in the engineering and pre-sales organisation I led as CTO" },
     { value: 130, suffix: "+", label: "customer projects as a solution architect" },
   ],
 
@@ -141,7 +141,7 @@ window.RESUME = {
       summary: "A sovereign landing zone built to meet national sovereignty requirements.",
       points: [
         "Programmatic regulatory perimeters and zero-trust controls.",
-        "Delivered entirely as infrastructure as code.",
+        "Built with infrastructure as code.",
         "Covers data, cryptographic and operational sovereignty.",
       ],
       tags: ["Sovereignty", "Zero trust", "IaC"],
@@ -149,7 +149,7 @@ window.RESUME = {
     {
       name: "Payments and platform scale",
       client: "ANZ Bank and Atlassian",
-      summary: "Architecture leadership for two of the largest Google Cloud footprints in the region.",
+      summary: "Architecture for a national payments platform and for scaling Atlassian on Google Cloud.",
       points: [
         "ANZ's payments platform: 99.999% SLA, carrying 60% of Australia's transaction volume.",
         "Atlassian's Google Cloud footprint: more than 27,000 CPUs serving 27 million users.",
@@ -262,7 +262,7 @@ window.RESUME = {
   certifications: [
     {
       issuer: "Google Cloud Professional",
-      items: ["Machine Learning Engineer", "Cloud Architect", "Cloud Developer", "Data Engineer", "Cloud Security Engineer", "Cloud DevOps Engineer", "Cloud Network Engineer"],
+      items: ["Cloud Architect", "Cloud Security Engineer"],
     },
     {
       issuer: "AWS and Microsoft",

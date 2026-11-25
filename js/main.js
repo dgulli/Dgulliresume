@@ -57,7 +57,7 @@
         '<p class="profile__name">' + R.name + "</p>" +
         '<p class="profile__role">' + R.shortTitle + "<br>" + R.employer + "</p>" +
       "</div>" +
-      '<div class="profile__chip profile__chip--a"><b>7×</b> Google Cloud certified</div>' +
+      '<div class="profile__chip profile__chip--a"><b>L7</b> at Google Cloud</div>' +
       '<div class="profile__chip profile__chip--b"><b>NV1</b> security cleared</div>' +
     "</div></div>";
 
@@ -73,7 +73,7 @@
     }).join("") + "</div></div></div>";
 
   /* ---------------- Impact ---------------- */
-  $("#impact").innerHTML = '<div class="wrap">' + head("Impact", "Numbers from recent work.", "Measured results from AI systems I've designed and built for regulated customers.") +
+  $("#impact").innerHTML = '<div class="wrap">' + head("Impact", "Numbers from recent work.", "Measured results from AI systems I've designed and built.") +
     '<div class="metrics" data-reveal>' + R.metrics.map(function (m) {
       return '<div class="metric"><div class="metric__num">' + count(m) + (m.suffix ? "<small>" + m.suffix + "</small>" : "") + '</div><p class="metric__label">' + m.label + "</p></div>";
     }).join("") + "</div></div>";
