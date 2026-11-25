@@ -248,6 +248,9 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .project li { position: relative; padding-left: 20px; font-size: 15.5px; line-height: 1.5; }
 .project li::before { content: ""; position: absolute; left: 0; top: .62em; width: 9px; height: 1.5px; background: var(--accent); }
 .project .chips { margin-top: auto; }
+/* a lone card on the last row stretches to fill it */
+@media (min-width: 1021px) { .work > .project:last-child:nth-child(3n+1) { grid-column: 1 / -1; } }
+@media (max-width: 1020px) and (min-width: 681px) { .work > .project:last-child:nth-child(2n+1) { grid-column: 1 / -1; } }
 @media (max-width: 1020px) { .work { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 680px) { .work { grid-template-columns: 1fr; } }
 
